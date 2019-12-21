@@ -3,7 +3,7 @@ package day2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import utilities.BrowserFactory;
-import utilities.BrowserUtilities;
+
 
 public class PartialLinkText {
     public static void main(String[] args) {
@@ -16,6 +16,5 @@ public class PartialLinkText {
         driver.findElement(By.name("wooden_spoon")).click();
 
         System.out.println(driver.findElement(By.tagName("h3")).getText());
-
     }
 }
